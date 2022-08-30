@@ -4,7 +4,7 @@ namespace Hausaufgabe
     {
         static void Main(string[] args)
         {
-            double a, b, c, d, z;
+            double a, b, c, d, z, kgv;
             int answ;
 
             d = 0;
@@ -26,7 +26,10 @@ namespace Hausaufgabe
                     b = z;
                 }
 
+                kgv = (c * d) / a;
+
                 Console.WriteLine($"der ggT von {c} und {d} ist {a}");
+                Console.WriteLine($"der kgV von {c} und {d} ist {kgv}");
                 Console.WriteLine("Möchten Sie einen weiteren ggT berechnen? (1 = ja, 0 = nein)");
                 answ = Convert.ToInt32(Console.ReadLine());
             }
