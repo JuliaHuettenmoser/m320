@@ -1,6 +1,6 @@
 namespace Hausaufgabe
 {
-    internal class ggT
+    internal class MyMath
     {
         static void Main(string[] args)
         {
@@ -30,7 +30,7 @@ namespace Hausaufgabe
 
                 Console.WriteLine($"der ggT von {c} und {d} ist {a}");
                 Console.WriteLine($"der kgV von {c} und {d} ist {kgv}");
-                Console.WriteLine("Möchten Sie einen weiteren ggT berechnen? (1 = ja, 0 = nein)");
+                Console.WriteLine("MÃ¶chten Sie einen weiteren ggT berechnen? (1 = ja, 0 = nein)");
                 answ = Convert.ToInt32(Console.ReadLine());
             }
             while (answ != 0);
