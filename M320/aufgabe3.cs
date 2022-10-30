@@ -1,6 +1,6 @@
 namespace test
 {
-    internal class claculator
+    internal class calculator
     {
         static void Main(string[] args)
 
@@ -22,9 +22,9 @@ namespace test
 
             if(eingabe == "+")
             {
-                //ergebnis = zahla + zahlb;
+                ergebnis = zahla + zahlb;
 
-                Console.WriteLine("Das Ergbenis ist: " + zahla + zahlb);
+                Console.WriteLine("Das Ergbenis ist: " + ergebnis);
             }
 
             else if (eingabe == "-")
